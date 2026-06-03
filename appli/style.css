@@ -1,0 +1,153 @@
+/* ==========================================================
+   Projet      : CoachTaekwondo
+   Fichier     : style.css
+   Auteur      : Aurélie RIVIERE
+   Version     : 1.0.0
+   Date        : Juin 2026
+
+   Description :
+   Feuille de style de l'application Streamlit.
+========================================================== */
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;600&display=swap');
+
+html, body, [class*="css"] {
+    font-family: 'Inter', sans-serif;
+}
+
+/* Bannière principale */
+.hero {
+    background: linear-gradient(135deg, #eef4fb 0%, #dbe9f6 50%, #ffffff 100%);
+    border-radius: 18px;
+    padding: 2.5rem 2rem 2rem;
+    text-align: center;
+    margin-bottom: 2rem;
+    border: 1px solid #8fb7d9;
+    box-shadow: 0 4px 14px rgba(38, 91, 132, 0.12);
+}
+
+.hero h1 {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 3.2rem;
+    color: #0b4f8a;
+    letter-spacing: 4px;
+    margin: 0;
+}
+
+.hero p {
+    color: #52677a;
+    font-size: 1rem;
+    margin-top: 0.5rem;
+}
+
+.hero .subtitle {
+    color: #2f80b7;
+    font-size: 0.85rem;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 0.3rem;
+}
+
+/* Cartes de présentation */
+.kick-card {
+    background: #f7fbff;
+    border-radius: 12px;
+    padding: 1.2rem 1.5rem;
+    margin-bottom: 1rem;
+    border-left: 4px solid #0b4f8a;
+    border: 1px solid #d3e3f1;
+}
+
+.kick-card h3 {
+    color: #0b4f8a;
+    margin: 0 0 0.4rem;
+    font-size: 1.1rem;
+}
+
+.kick-card p {
+    color: #5f7488;
+    margin: 0;
+    font-size: 0.9rem;
+}
+
+/* Résultats */
+.result-box {
+    border-radius: 14px;
+    padding: 2rem;
+    text-align: center;
+    margin: 1.5rem 0;
+}
+
+.result-ap {
+    background: linear-gradient(135deg, #eaf4fc, #d6e9f8);
+    border: 2px solid #2f80b7;
+}
+
+.result-yop {
+    background: linear-gradient(135deg, #f2f7fb, #dceaf5);
+    border: 2px solid #0b4f8a;
+}
+
+.result-box .label {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 2.6rem;
+    letter-spacing: 3px;
+    margin-bottom: 0.3rem;
+}
+
+.result-ap .label {
+    color: #2f80b7;
+}
+
+.result-yop .label {
+    color: #0b4f8a;
+}
+
+.result-box .conf {
+    color: #334e63;
+    font-size: 1rem;
+}
+
+/* Message si pas de détection */
+.no-detection {
+    background: #f6f8fa;
+    border: 2px dashed #9fb6c9;
+    border-radius: 12px;
+    padding: 1.5rem;
+    text-align: center;
+    color: #5f7488;
+}
+
+/* Boutons */
+.stButton>button {
+    background: #0b4f8a;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 0.6rem 2rem;
+    font-weight: 600;
+    font-size: 1rem;
+    cursor: pointer;
+    width: 100%;
+}
+
+.stButton>button:hover {
+    background: #083b66;
+}
+
+/* Chips techniques */
+.info-chip {
+    display: inline-block;
+    background: #eef4fb;
+    border: 1px solid #c8dced;
+    border-radius: 20px;
+    padding: 0.2rem 0.8rem;
+    font-size: 0.8rem;
+    color: #52677a;
+    margin: 0.2rem;
+}
+
+hr {
+    border-color: #d3e3f1;
+}
