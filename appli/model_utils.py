@@ -50,8 +50,10 @@ def load_models():
     """
 
     # Chargement du réseau de neurones entraîné
+    MODEL_PATH = os.path.join(MODEL_DIR, "modele_taekwondo.keras")
     keras_model = tf.keras.models.load_model(
-        os.path.join(MODEL_DIR, "modele_taekwondo.keras")
+        MODEL_PATH,
+        compile=False
     )
 
     # Chargement du scaler utilisé lors de l'entraînement
