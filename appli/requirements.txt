@@ -3,7 +3,7 @@ streamlit==1.45.1
 tensorflow==2.20.0
 keras==3.12.2
 
-mediapipe==0.10.21
+mediapipe==0.10.35
 opencv-contrib-python-headless==4.11.0.86
 
 scikit-learn==1.6.1
